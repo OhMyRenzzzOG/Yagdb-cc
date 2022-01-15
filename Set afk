@@ -12,7 +12,7 @@ CC COPYRIGHT BY : RZLXB
 
 {{ $time := 0 }}{{ $afk := dbGet .User.ID "afk" }}{{ $prefix := index (reFindAllSubmatches `.*?: \x60(.*)\x60\z` (execAdmin "Prefix")) 0 1 }}{{ $desc := "" }}
 {{ if $args := .Args }}
-	{{(P FOR F 💀
+	{{(P FOR F 💀 Kkkkk
 			) }}
 		{{ end }}
 	{{ end }}
